@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+nav {
+    background-color: rgba(129, 129, 129, 0.664);
+}
+
+.container-fuid {
+    color: #fff;
+}
+
+section {
+    height: 100vh;
+    padding: 10rem 12%;
+    overflow: hidden;
+}
+
+.section-carrossel {
+    padding: 0;
+    position: relative;
+    contain: content;
+}
+
+.texto {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.texto h1 {
+    font-weight: 600;
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: rgb(10, 110, 32);
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.texto p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+nav .d-flex button {
+    border: rgb(10, 110, 32);
+    color: #fff;
+    background-color: rgb(10, 110, 32);
+}
+
+nav .d-flex button:hover {
+    color: #000;
+    background-color: #fff;
+    border: #fff;
+}
+
+/* home */
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+    gap: 80px;
+}
+
+.home-content img {
+    max-width: 20rem;
+    max-height: auto;
+    border-radius: 5px;
+}
+
+/* sobre */
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: #000 solid;
+    background-color: rgb(253, 246, 231);
+}
+
+.text-content {
+    text-align: right;
+}
+
+.text-content, .image-content {
+    flex: 1;
+}
+
+.image-content img {
+     width: 100%;
+     height: auto;
+     border: #000 solid;
+}
+
+/* Viagem */
+
+.viagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viagens-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    min-height: 100%;
+}
+
+/* Contato */
+
+.contato {
+    background-color: #000;
+}
+
+.contato h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contato h1 span {
+    color: lightgreen;
+}
+
+.contato label {
+    color: #fff;
+}
+
+.contato textarea, .contato input {
+    border: none;
+    color: #fff;
+}

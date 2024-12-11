@@ -93,7 +93,6 @@ nav .d-flex button:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    border: #000 solid;
     background-color: rgb(253, 246, 231);
 }
 
@@ -108,7 +107,6 @@ nav .d-flex button:hover {
 .image-content img {
      width: 100%;
      height: auto;
-     border: #000 solid;
 }
 
 /* Viagem */
